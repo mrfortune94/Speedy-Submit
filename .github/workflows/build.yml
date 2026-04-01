@@ -17,10 +17,10 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
 
-      - name: Set up JDK 11
+      - name: Set up JDK 17
         uses: actions/setup-java@v4
         with:
-          java-version: '11'
+          java-version: '17'
           distribution: 'temurin'
           cache: gradle
 
@@ -30,8 +30,8 @@ jobs:
       - name: Install required Android SDK components
         run: |
           $ANDROID_HOME/cmdline-tools/latest/bin/sdkmanager \
-            "platforms;android-30" \
-            "build-tools;30.0.3"
+            "platforms;android-34" \
+            "build-tools;34.0.0"
 
       - name: Grant execute permission for gradlew
         run: chmod +x gradlew
