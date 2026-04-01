@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.javanxd.speedysubmit.app-mergeDebugResources-21:/values-ldltr-v21/values-ldltr-v21.xml",
+            "map": [
+                {
+                    "source": "/home/runner/.gradle/caches/transforms-3/31a138f374e752a697c7274d951536fb/transformed/appcompat-1.3.1/res/values-ldltr-v21/values-ldltr-v21.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "112",
+                        "endOffsets": "163"
+                    }
+                }
+            ]
+        }
+    ]
+}
